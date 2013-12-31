@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>My To Do List</title>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="todo.js"></script>
+  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <h2 align="center">To Do List</h2>
+  <div align="center">
+    <label><h4>Enter new task:</h4></label>
+    <input id="newtask" type="text" autofocus="true">
+    <button id="newtaskbutton" class="btn btn-primary">Add Task</button>
+  </div>
+  <div align="center">
+    <label><h5>Select priority - </h5></label>
+    <label><h5> Low: </h5></label>
+    <input name="priority" type="radio" value="low" checked>
+    <label><h5> Medium: </h5></label>
+    <input name="priority" type="radio" value="med">
+    <label><h5> High: </h5></label>
+    <input name="priority" type="radio" value="high">
+  </div>
+  <ul id="list">
+  </ul> 
+  <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
